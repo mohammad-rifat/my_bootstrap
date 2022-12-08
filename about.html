@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Bootstrap</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- my css  -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <style>
+      .teachers_heading, .common_heading {
+        background-color: burlywood;
+      }
+      .teachers {
+        background-color: rgba(222, 184, 135, 0.295);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ==========================
+            nav start
+    ========================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://banner2.cleanpng.com/20180927/tj/kisspng-logo-trulia-brand-font-product-icode-4-week-code-camp-an-iurban-teen-program-5bac9f40e626b8.6113311115380396169427.jpg"
+            height="50"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">App Development</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Software Development</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Others</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==========================
+            nav end
+    ========================== -->
+
+    <!-- ==========================
+    carousel(from example) start
+    ========================== -->
+    <div class="container my-4">
+        <h2 class="text-center common_heading">Know About Our Organization</h2>
+      <div class="row featurette d-flex align-items-center my-4">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            First featurette heading.
+            <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="img-fluid"
+            src="https://mbanotesworld.com/wp-content/uploads/2021/07/forms-of-business-organization-1.png"
+            height="500"
+            width="500"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="row featurette d-flex align-items-center my-4">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Oh yeah, it’s that good.
+            <span class="text-muted"> See for yourself.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="img-fluid"
+            src="https://upload.wikimedia.org/wikipedia/commons/4/46/02_Icon-Organisation.png"
+            height="500"
+            width="500"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="row featurette d-flex align-items-center my-4">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            First featurette heading.
+            <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="img-fluid"
+            src="https://e7.pngegg.com/pngimages/573/814/png-clipart-organizational-structure-organizational-chart-management-computer-icons-organization-company-people.png"
+            height="500"
+            width="500"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- ==========================
+      carousel(from example) end
+      ========================== -->
+
+    <!-- ==========================
+            Our teachers(from example) start
+    ========================== -->
+    <div class="container my-5">
+      <h2 class="teachers_heading text-dark text-center">Our Teachers</h2>
+      <div class="row g-1">
+        <div class="col-lg-4 mt-2 text-center teachers border-end border-dark">
+          <img
+            class="bd-placeholder-img rounded-circle"
+            src="https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY2MzU3Njc4ODI0NjI5OTM0/isaac_newton_1689_painting_sir_godfrey_kneller_public_domain_via_wikimedia_commons.jpg"
+            width="140"
+            height="140"
+            alt=""
+          />
+
+          <h2 class="fw-normal">Isaac Newton</h2>
+          <p>
+            Some representative placeholder content for the three columns of
+            text below the carousel. This is the first column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4 mt-2 text-center teachers border-end border-dark">
+          <img
+            class="bd-placeholder-img rounded-circle"
+            src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc5ODc5NjY5ODU0NjQzMzIy/gettyimages-3091504.jpg"
+            width="140"
+            height="140"
+            alt=""
+          />
+
+          <h2 class="fw-normal">Albert Einstein</h2>
+          <p>
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4 mt-2 text-center teachers border-dark">
+          <img
+            class="bd-placeholder-img rounded-circle"
+            src="https://cdn.britannica.com/29/18829-050-3F57E4F8/Galileo-Justus-Sustermans-Uffizi-Gallery-Florence-1637.jpg"
+            width="140"
+            height="140"
+            alt=""
+          />
+
+          <h2 class="fw-normal">Galileo Galilei</h2>
+          <p>
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+      </div>
+
+      <div class="row g-1 my-1">
+        <div class="col-lg-4 text-center teachers border-end border-dark">
+          <img
+            class="bd-placeholder-img rounded-circle"
+            src="https://www.biography.com/.image/t_share/MTc5OTUwMTM2MzA5MzI2OTcw/gettyimages-50694623.jpg"
+            width="140"
+            height="140"
+            alt=""
+          />
+
+          <h2 class="fw-normal">Marie Curie</h2>
+          <p>
+            Some representative placeholder content for the three columns of
+            text below the carousel. This is the first column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4 text-center teachers border-end border-dark">
+          <img
+            class="bd-placeholder-img rounded-circle img-fluid"
+            src="https://haorpedia.org/wp-content/uploads/2021/11/Screenshot_20211101_194205.jpg"
+            width="140"
+            height="140"
+            alt=""
+          />
+
+          <h2 class="fw-normal">Rabindranath Tagore</h2>
+          <p>
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4 text-center teachers border-dark">
+          <img
+            class="bd-placeholder-img rounded-circle img-fluid"
+            src="https://www.biography.com/.image/t_share/MTIwNjA4NjMzNzMxNzc4MDYw/francis-bacon-9194632-1-402.jpg"
+            width="140"
+            height="140"
+            alt=""
+          />
+
+          <h2 class="fw-normal">Francis Bacon</h2>
+          <p>
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+      </div>
+    </div>
+    <!-- ==========================
+            Our teachers(from example) end
+    ========================== -->
+    <!-- ==========================
+            footer start
+    ========================== -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>
+        © 2017–2022 Company, Inc. · <a href="#">Privacy</a> ·
+        <a href="#">Terms</a>
+      </p>
+    </footer>
+    <!-- ==========================
+              footer end
+      ========================== -->
+
+    <!-- ==========================
+            carousel end
+    ========================== -->
+    <!-- ==========================
+            carousel end
+    ========================== -->
+
+    <!-- bootstrap js  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- my js  -->
+    <script src="js/index.js"></script>
+  </body>
+</html>

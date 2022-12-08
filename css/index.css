@@ -1,0 +1,19 @@
+nav{
+    z-index: 999;
+}
+nav.sticky{
+    position: sticky;
+    top: 0;
+animation-name: sticky;
+animation-duration: .5s;
+animation-timing-function: linear;
+
+}
+@keyframes sticky {
+    0%{
+        top: -50px;
+    }100%{
+        top: 0;
+    }
+}
+
